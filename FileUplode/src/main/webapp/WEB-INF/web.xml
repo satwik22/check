@@ -1,0 +1,26 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<context-param>
+		<param-name>name</param-name>
+		<param-value>mallesh</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>FileUploder</servlet-name>
+		<display-name>FileUploder</display-name>
+		<description></description>
+		<servlet-class>com.app.FileUploder</servlet-class>
+		<init-param>
+			<param-name>name</param-name>
+			<param-value>Sateik</param-value>
+			<description></description>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileUploder</servlet-name>
+		<url-pattern>/Uploder</url-pattern>
+	</servlet-mapping>
+</web-app>
